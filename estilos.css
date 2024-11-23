@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); /* Cria 2 colunas de largura igual */
+    grid-template-rows: repeat(2, 0fr); /* Cria 2 linhas de altura igual */
+    /* gap: 2px; Espaçamento entre as células da grade */
+    height: 0vh; /* Defina a altura do contêiner conforme necessário */
+    justify-items: center; /* Alinha a imagem horizontalmente */
+    justify-content: center;
+
+  }
+   .html{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   }
+
+   .text-html{
+    text-align: center;
+    font-size: 70px;
+   }
+
+   .javascript{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   }
+
+   .text-js{
+    text-align: center;
+    font-size: 70px;
+   }
+
+   .hardware{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   }
+
+   .text-hardware{
+    text-align: center;
+    font-size: 70px;
+   }
+
+   .python{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   }
+
+   .text-python{
+    text-align: center;
+    font-size: 70px;
+   }
+
+   .playlist{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    color: white;
+   }
+
+   .voltar-icone{
+    text-align: center;
+   }
+
+
